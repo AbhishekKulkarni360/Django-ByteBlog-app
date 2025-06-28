@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p><em>Published on {{ post.published_date }}</em></p>
+    <div>
+        {{ post.text|linebreaks }}
+    </div>
+    <p><a href="{% url 'post_list' %}">Back to all posts</a></p>
+</body>
+</html>
