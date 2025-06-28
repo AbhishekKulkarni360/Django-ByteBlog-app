@@ -1,23 +1,26 @@
 # Python
 __pycache__/
 *.py[cod]
-*.sqlite3
+*.env
 *.log
-*.pot
-*.pyc
-*.pyo
 
-# Django stuff:
-*.sqlite3
+# Django
 db.sqlite3
+*.sqlite3
+/staticfiles/
 media/
-staticfiles/
+local_settings.py
 
-# VSCode / IDE
+# VS Code
 .vscode/
-.idea/
 
-# Environments
+# Environment
 .env
-venv/
+*.venv/
+.venv/
 env/
+ENV/
+
+# OS-specific
+.DS_Store
+Thumbs.db
