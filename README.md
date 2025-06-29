@@ -62,6 +62,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 Now open http://127.0.0.1:8000 to see the app.
+
 ---
 ### 🧪 Testing
 Run Django’s test suite:
